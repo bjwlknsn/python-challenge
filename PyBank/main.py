@@ -50,7 +50,7 @@ print(f"Average Change:  ${average_profit_loss}")
 print(f"Greatest Increase in Profits:  {best_month} (${highest_change})")
 print(f"Greatest Decrease in Losses:  {worst_month} (${lowest_change})")
 
-budget_file = os.path.join("analysis", "budget_data.txt")
+budget_file = os.path.join("analysis", "financial_analysis.txt")
 
 with open(budget_file, "w") as outfile:
     outfile.write("Financial Analysis\n")
